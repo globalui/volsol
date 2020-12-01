@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Page</title>
+
+        <link rel="stylesheet" href="vendors/bootstrap/dist/css/min/bootstrap.css">
+        <!--  <link rel="stylesheet" href="vendors/icomoon/style.css"> -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/dist/css/app.css">
+        <link rel="stylesheet" href="vendors/flags/flags.css">
+    </head>
+
+    <body>
+        <header class="header-bar bg-primary">
+            <div class="container-fluid d-none d-lg-flex bg-primary-light nav-light">
+                <div class="container d-flex">
+                    <ul class="ml-0 list-unstyled d-flex small mb-0 p-2 align-items-center">
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fab fa-whatsapp"></i> +44-785-623-4872
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fa fa-envelope"></i> info@volunteeringsolutions.com
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="ml-auto list-unstyled d-flex small mb-0 p-2 align-items-center">
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fas fa-blog"></i> Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="px-2">
+                                <i class="fa fa-user"></i> My Account
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-xl bg-primary navbar-dark container py-lg-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.svg" alt="VolSol">
+                </a>
+                <div class="d-flex ml-auto align-content-center show-on-mobile">
+                    <!-- showing Only in mobile -->
+                    <ul class="list-unstyled ml-lg-auto d-flex d-lg-none mb-0 mr-2">
+                        <li class="nav-item mr-lg-3">
+                            <a class="nav-link text-white" href="#!">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="btn btn-danger px-lg-4 text-nowrap apply-btn" href="#!">Apply Now</a>
+                        </li>
+                    </ul>
+                    <!-- Showing Only Mobile Apply now and search btn -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse slider-navbar" id="navbarContent">
+                    <ul class="navbar-nav ml-auto position-relative" data-navstyle="js">
+                        <li class="nav-item dropdown dropdown-animate position-static">
+                            <a class="nav-link dropdown-toggle active" href="#!volunteering-destinations">
+                                Destinations </a>
+                            <div class="dropdown-menu shadow custom-menu w-100">
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-asia">
+                                            Asia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-bali">
+                                            <span class="flag flag-id"></span>Bali </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-cambodia">
+                                            <span class="flag flag-kh"></span>Cambodia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-china">
+                                            <span class="flag flag-cn"></span>China </a>
+                                    </li>
+                                    <li>
+                                        <a href="country-index.html">
+                                            <span class="flag flag-in"></span>India </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-malaysia">
+                                            <span class="flag flag-my"></span>Malaysia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-nepal">
+                                            <span class="flag flag-np"></span>Nepal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-philippines">
+                                            <span class="flag flag-ph"></span>Philippines </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-sri-lanka">
+                                            <span class="flag flag-lk"></span>Sri Lanka </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-thailand">
+                                            <span class="flag flag-th"></span>Thailand </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-vietnam">
+                                            <span class="flag flag-vn"></span>Vietnam </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-africa">
+                                            Africa </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ghana">
+                                            <span class="flag flag-gh"></span>Ghana </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-kenya">
+                                            <span class="flag flag-ke"></span>Kenya </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-madagascar">
+                                            <span class="flag flag-mg"></span>Madagascar </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-morocco">
+                                            <span class="flag flag-ma"></span>Morocco </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-south-africa">
+                                            <span class="flag flag-za"></span>South Africa </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-tanzania">
+                                            <span class="flag flag-tz"></span>Tanzania </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-uganda">
+                                            <span class="flag flag-ug"></span>Uganda </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-australasia">
+                                            Australasia &amp; Pacific </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-australia">
+                                            <span class="flag flag-au"></span>Australia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-new-zealand">
+                                            <span class="flag flag-nz"></span>New Zealand </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-north-america">
+                                            North America </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-mexico">
+                                            <span class="flag flag-mx"></span>Mexico </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-south-america">
+                                            South America </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-brazil">
+                                            <span class="flag flag-br"></span>Brazil </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-costa-rica">
+                                            <span class="flag flag-cr"></span>Costa Rica </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ecuador">
+                                            <span class="flag flag-ec"></span>Ecuador </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-peru">
+                                            <span class="flag flag-pe"></span>Peru </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-europe">
+                                            Europe </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ireland">
+                                            <span class="flag flag-ie"></span>Ireland </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-portugal">
+                                            <span class="flag flag-pt"></span>Portugal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-spain">
+                                            <span class="flag flag-es"></span>Spain </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="#!intern-abroad">
+                                Intern Abroad </a>
+
+                            <div class="dropdown-menu custom-menu shadow">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-india">
+                                            <span class="flag flag-in"></span>
+                                            Intern in India </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-nepal">
+                                            <span class="flag flag-np"></span>
+                                            Intern in Nepal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-peru">
+                                            <span class="flag flag-pe"></span>
+                                            Intern in Peru </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-thailand">
+                                            <span class="flag flag-th"></span>
+                                            Intern in Thailand </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle active" href="#!volunteer-abroad-programs">
+                                Projects </a>
+
+                            <div class="dropdown-menu shadow custom-menu">
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-abroad-programs">
+                                            Volunteer Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!medical-volunteer-abroad-programs">
+                                            <i class="fa fa-medkit"></i>Medical &amp; Healthcare </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!wildlife-conservation-volunteer-abroad-projects">
+                                            <i class="fa fa-paw"></i>Wildlife &amp; Animal Care </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!childcare-volunteer-abroad-projects">
+                                            <i class="fa fa-child"></i>Childcare </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!teaching-volunteer-projects-abroad">
+                                            <i class="fa fa-pencil-square-o"></i>Teaching Projects </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!environment-conservation">
+                                            <i class=""></i>Environment Conservation </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!women-empowerment-volunteer-abroad">
+                                            <i class="fa fa-female"></i>Women Empowerment </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!community-development">
+                                            <i class="fa fa-users"></i>Community Development </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!one-week-volunteer-abroad-programs">
+                                            <i class=""></i>1 Week Projects </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!construction-and-building-volunteer-projects">
+                                            <i class=""></i>Construction &amp; Building Projects </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!2-weeks-volunteer-abroad-programs">
+                                            <i class="fa fa-2weeks"></i>2 Week Specials </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!short-term-volunteer-opportunities">
+                                            <i class=""></i>Short Term Volunteering </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!summer-volunteer-abroad-programs">
+                                            <i class="fa fa-summer_program"></i>Summer Programs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!disabled-care-and-special-need-volunteer-abroad">
+                                            <i class="fa fa-wheelchair"></i>Disabled &amp; Special Need Care </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!sports-coaching">
+                                            <i class="fa fa-futbol-o"></i>Sports Coaching </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!language-culture-week">
+                                            <i class="fa fa-language"></i>Language - Orientation Week </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!senior-volunteering-abroad">
+                                            <i class=""></i>Senior Volunteering </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!high-school-volunteer-abroad-programs">
+                                            <i class=""></i>High School &amp; Under 18 Programs </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!intern-abroad">
+                                            Intern Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!journalism-and-media-internship">
+                                            <i class="fa fa-book"></i>Journalism and Media </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!medical-internship-abroad">
+                                            <i class="fa fa-user-md"></i>Medical - Healthcare Internship </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="#!group-volunteer-abroad">
+                                Groups </a>
+
+                            <div class="dropdown-menu custom-menu shadow">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!cas-trips-abroad">
+                                            CAS Trips Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-abroad-university-groups">
+                                            University Group Programs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!family-volunteering">
+                                            Family Volunteering </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!school-trips-abroad">
+                                            School Trips Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!corporate-volunteering">
+                                            Corporate Volunteering </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="#!">
+                                Resources </a>
+
+                            <div class="dropdown-menu custom-menu shadow">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!flight-booking">
+                                            Flight Booking </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!faqs">
+                                            FAQs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!fundraise">
+                                            Fundraise for your trip </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!meet-a-volunteer">
+                                            Meet a Volunteer </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!cost">
+                                            Program Costs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!dates">
+                                            Program Dates </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!insurance">
+                                            Buy VS Insurance </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="about.html">
+                                About Us </a>
+
+                            <div class="dropdown-menu custom-menu shadow dropdown-menu-right">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!team">
+                                            Meet the Team </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!message-parents">
+                                            Message to Parents </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!media">
+                                            News and Articles </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volsol-policies">
+                                            VolSol Policies </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!aboutus">
+                                            What VolSol is all about? </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!why-vs">
+                                            Why Choose us? </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!why-pay">
+                                            Why Pay to Volunteer Abroad ? </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled ml-lg-auto d-lg-flex d-none mb-0">
+                        <li class="nav-item mr-lg-3">
+                            <a class="nav-link text-white" href="#!">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="btn btn-danger px-lg-4 text-nowrap apply-btn" href="apply.html">Apply Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="hero inner-banner d-flex align-items-end banner-container position-relative">
+            <div class="container">
+                <div class="hero-caption">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 text-white">
+                            <h1 class="heading-text text-white">Volunteer Abroad Programs</h1>
+                            <div aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#!">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Volunteer Abroad Programs
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <picture class="position-absolute z-index-n1 position-left-top-0 shadow-on-element">
+                <source media="(min-width: 768px)" srcset="dump/inner-banner.png">
+                <source media="(min-width: 650px)" srcset="dump/tab-inner-banner.png">
+                <img src="dump/mobile-inner-banner.png" alt="hero" width="100%">
+            </picture>
+        </section>
+
+        <main class="wrapper bg-white">
+            <section class="py-lg-5 py-3">
+                <div class="container">
+                    <div class="row pb-0 pb-lg-5">
+                        <div class="col-12 col-lg-8 text-muted">
+                            <div class="show-read-more" data-lenght="1200">
+                                <p>Find the best and most affordable volunteer abroad programs and make a difference
+                                    with Volunteering Solutions, one of the best volunteer travel organizations,
+                                    offering international internships and affordable volunteer opportunities in over 40
+                                    destinations across Asia, Africa, Europe, South America, and Australia, throughout
+                                    the year.</p>
+                                <p>Volunteering &amp; Internship programs are available for a duration of 1 week to 24
+                                    weeks, and participants can choose what suits them best. We offer a wide range of
+                                    programs, including Teaching English, Childcare Projects, Wildlife Conservation,
+                                    Women Empowerment, Medical Volunteering, Community Development, Short Term
+                                    Volunteering, Senior Volunteering, Mission Trips and more, for people of all age
+                                    groups. Pre-med, Medical, Nursing or Dental students can boost their professional
+                                    skills by joining Medical &amp; Dental Internships.</p>
+                                <p>No matter whether you are a High School student looking for a Spring Break Program or
+                                    an 'Under 18 Volunteering opportunity', a college student or a gap year traveler
+                                    seeking a month-long volunteer program overseas, or probably seeking an offbeat
+                                    family volunteering trip - we have it all for you, so that you can take a step of
+                                    being a responsible traveler &amp; contribute towards the developing societies.</p>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-lg-4 position-relative">
+                            <div class="absolute-top-n50 show-lg-only mt-5 mt-lg-0">
+                                <ul
+                                    class="z-index-1 pb-lg-5 position-relative bg-light-blue list-unstyled rounded p-4 list-style-with-heading">
+                                    <li>
+                                        Quick Facts
+                                    </li>
+                                    <li>
+                                        Start Dates : All Year Round
+                                    </li>
+                                    <li>
+                                        Duration : 1-24 Weeks
+                                    </li>
+                                    <li>
+                                        Program Locations : Delhi &
+                                        Dharamsala - Palampur
+                                    </li>
+                                    <li>
+                                        Minimum Age: 17 years+
+                                    </li>
+                                    <li>
+                                        Certificate - Offered after Program
+                                        completion
+                                    </li>
+                                </ul>
+                                <div class="svg-dot right-bottom-style-2-n50">
+                                    <img src="assets/images/theme-common/dot-bg-blue.svg" alt="red-dot"
+                                        class="img-fluid">
+                                </div>
+                                <div class="social-share grid grid-col-xs-2 mt-5 mb-5 z-index-0 position-relative">
+                                    <div class="social-share-text text-center">
+                                        <span>
+                                            Join VOLSOL
+                                        </span>
+                                        <span>
+                                            facebook group
+                                        </span>
+                                        <span>
+                                            <i>&</i>follow us on
+                                        </span>
+                                        <span>
+                                            Instagram
+                                        </span>
+                                    </div>
+                                    <div class="social-share-icon">
+                                        <a href="#!" class="mr-3 text-decoration-none">
+                                            <i class="fab text-color-fb fa-facebook-square fa-4x"></i>
+                                        </a>
+                                        <a href="#!" class="text-decoration-none">
+                                            <i class="fab text-color-insta fa-instagram fa-4x"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-5 bg-primary bg-lines testimonial-section text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <span class="quotes-icon fa-pull-left">
+                                <img src="assets/images/theme-common/quotes-left.svg" alt="quotes-left">
+                            </span>
+                            <p class="px-lg-5 mx-auto caption">
+                                The whole experience exceeded my expectations. Unfortunately I had few time at my
+                                disposal but inmy short time I felt I was really there for something, I really felt I
+                                can give a sort of aid durig the classes.The Volunteer house was a bit far from the city
+                                center, but this was both a pro and a con. It was very peaceful but the way to reach the
+                                school as a bit long.
+                                Hope to be back again soon
+                            </p>
+                            <span class="quotes-icon fa-pull-right">
+                                <img src="assets/images/theme-common/quotes-right.svg" alt="quotes-left">
+                            </span>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mt-4">
+                            <figure class="rotate-45">
+                                <img src="dump/gl/1.jpg" alt="profile" class="img-fluid">
+                            </figure>
+                            <div class="ml-lg-5 ml-3">
+                                <span class="font-script">Silvia Gatti</span>
+                                <span class="d-block small text-success">
+                                    <i class="fa fa-check-circle"></i> Verified Volunteer
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-style bg-light">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- aside bar -->
+                        <aside class="col-12 col-lg-4">
+                            <div class="sticky-top mb-5">
+                                <h4 class="h3 font-weight-bold">Volunteer Abroad</h4>
+                                <div class="mb-4">
+                                    
+                                </div>
+                                <div class="position-relative show-lg-only">
+                                    <ul class="list-unstyled nav-pills bg-light tabs-style-3 z-index-1 position-relative"> 
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#!medical-volunteer-abroad-programs">
+                                                Medical &amp; Healthcare </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!wildlife-conservation-volunteer-abroad-projects">
+                                                Wildlife &amp; Animal Care </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!childcare-volunteer-abroad-projects">
+                                                Childcare </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!teaching-volunteer-projects-abroad">
+                                                Teaching Projects </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!environment-conservation">
+                                                Environment Conservation </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!women-empowerment-volunteer-abroad">
+                                               Women Empowerment </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!community-development">
+                                               Community Development </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!one-week-volunteer-abroad-programs">
+                                              1 Week Projects </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!construction-and-building-volunteer-projects">
+                                               Construction &amp; Building Projects </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!2-weeks-volunteer-abroad-programs">
+                                               2 Week Specials </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!short-term-volunteer-opportunities">
+                                              Short Term Volunteering </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!summer-volunteer-abroad-programs">
+                                              Summer Programs </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!disabled-care-and-special-need-volunteer-abroad">
+                                               Disabled &amp; Special Need Care </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!sports-coaching">
+                                               Sports Coaching </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!language-culture-week">
+                                               Language - Orientation Week </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!senior-volunteering-abroad">
+                                               Senior Volunteering </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#!high-school-volunteer-abroad-programs">
+                                              High School &amp; Under 18 Programs </a>
+                                        </li>
+                                    </ul>
+                                    <div class="svg-dot let-bottom-n50">
+                                        <img src="assets/images/theme-common/dot-bg-blue.svg" alt="red-dot"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <!-- End Aside Bar -->
+
+                        <!-- right side -->
+                        <div class="col-12 bg-white shadow col-lg-8">
+                            <div class="w-100 p-lg-3">  
+                                <h3 class="my-4 h3 font-weight-bold">
+                                    <span class="font-weight-light p-text">Best Medical</span> 
+                                    Volunteer Abroad Opportunities 
+                                    <span class="font-weight-light p-text">For Students & Professionals</span>
+                                </h3>
+                                <div class="d-flex flex-wrap flex-lg-nowrap align-items-center mb-5">
+                                    <label for="selectDestination" class="mr-lg-2 d-block d-lg-inline text-nowrap">Select Destination</label>
+                                   <select name="selectDestination" id="selectDestination" class="form-control col-lg-5 ">
+                                       <option value="">All Destinations</option>
+                                       <option value="1">India</option>
+                                       <option value="1">Nepal</option>
+                                   </select>
+                                </div>
+
+                                <!-- List of programs -->
+                                <div class="d-flex flex-wrap border p-2 rounded mb-3">
+                                    <div class=" col-12 col-md-5 col-lg-5 px-0">
+                                        <a href="program-details.html">
+                                            <figure
+                                                class="program-img d-flex justify-content-center align-items-center">
+                                                <img src="dump/project-list-img.jpg" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="card-body col-12 col-md-7 col-lg-7 px-3 py-lg-0">
+                                        <a href="program-details.html"
+                                            class="d-block h5 font-weight-bold mb-0">Teaching
+                                            Program</a>
+                                        <small> Dharamsala - Palampur | Teaching</small>
+                                        <ul class="list-unstyled programs-tags d-flex flex-wrap my-2">
+                                            <li>
+                                                <i class="fa fa-clock"></i> 2-12 Weeks
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-user"></i> 18+ years
+                                            </li>
+                                        </ul>
+                                        <p class="card-text mb-2 small-1 text-muted">
+                                            Volunteer Teaching Program in India allows volunteers to improve
+                                            literacy levels of students at local primary and secondary
+                                            schools, get practical...
+                                        </p>
+                                        <h6>Get involved to make an impact</h6>
+                                        <div
+                                            class="program-footer d-flex flex-wrap align-items-center position-relative">
+                                            <ul class="list-unstyled d-flex flex-wrap un-goals mb-0">
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/4.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>Quality of education</span>
+                                                </li>
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/1.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>No Poverty</span>
+                                                </li>
+                                            </ul>
+
+                                            <a href="program-details.html"
+                                                class="btn btn-outline-primary program-btn"> View
+                                                Details</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End List of programs -->
+
+                                <!-- List of programs -->
+                                <div class="d-flex flex-wrap border p-2 rounded mb-3">
+                                    <div class=" col-12 col-md-5 col-lg-5 px-0">
+                                        <a href="#!">
+                                            <figure
+                                                class="program-img d-flex justify-content-center align-items-center">
+                                                <img src="dump/project-list2-img.jpg" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="card-body col-12 col-md-7 col-lg-7 px-3 py-lg-0">
+                                        <a href="#!" class="d-block h5 font-weight-bold mb-0">
+                                            Childcare & Elephant Volunteer Experience
+                                        </a>
+                                        <small> Delhi | 2 Week Specials</small>
+                                        <ul class="list-unstyled programs-tags d-flex flex-wrap my-2">
+                                            <li>
+                                                <i class="fa fa-clock"></i> 2-12 Weeks
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-user"></i> 18+ years
+                                            </li>
+                                        </ul>
+                                        <p class="card-text mb-2 small-1 text-muted">
+                                            Be a part of Childcare & Elephant Volunteering Experience in
+                                            India, teach street kids in Delhi, work with elephants in Agra,
+                                            and city tour of Jaipur...
+                                        </p>
+                                        <h6>Get involved to make an impact</h6>
+                                        <div
+                                            class="program-footer d-flex flex-wrap align-items-center position-relative">
+                                            <ul class="list-unstyled d-flex flex-wrap un-goals mb-0">
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/13.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>Climate Action</span>
+                                                </li>
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/15.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>Life on Land</span>
+                                                </li>
+                                            </ul>
+
+                                            <a href="#!" class="btn btn-outline-primary program-btn"> View
+                                                Details</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End List of programs -->
+
+                                <!-- List of programs -->
+                                <div class="d-flex flex-wrap border p-2 rounded mb-3">
+                                    <div class=" col-12 col-md-5 col-lg-5 px-0">
+                                        <a href="#!">
+                                            <figure
+                                                class="program-img d-flex justify-content-center align-items-center">
+                                                <img src="dump/project-list-img.jpg" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="card-body col-12 col-md-7 col-lg-7 px-3 py-lg-0">
+                                        <a href="#!" class="d-block h5 font-weight-bold mb-0">Teaching
+                                            Program</a>
+                                        <small> Dharamsala - Palampur | Teaching</small>
+                                        <ul class="list-unstyled programs-tags d-flex flex-wrap my-2">
+                                            <li>
+                                                <i class="fa fa-clock"></i> 2-12 Weeks
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-user"></i> 18+ years
+                                            </li>
+                                        </ul>
+                                        <p class="card-text mb-2 small-1 text-muted">
+                                            Volunteer Teaching Program in India allows volunteers to improve
+                                            literacy levels of students at local primary and secondary
+                                            schools, get practical...
+                                        </p>
+                                        <h6>Get involved to make an impact</h6>
+                                        <div
+                                            class="program-footer d-flex flex-wrap align-items-center position-relative">
+                                            <ul class="list-unstyled d-flex flex-wrap un-goals mb-0">
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/4.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>Quality of education</span>
+                                                </li>
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/1.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>No Poverty</span>
+                                                </li>
+                                            </ul>
+
+                                            <a href="#!" class="btn btn-outline-primary program-btn"> View
+                                                Details</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End List of programs -->
+
+                                <!-- List of programs -->
+                                <div class="d-flex flex-wrap border p-2 rounded mb-3">
+                                    <div class=" col-12 col-md-5 col-lg-5 px-0">
+                                        <a href="#!">
+                                            <figure
+                                                class="program-img d-flex justify-content-center align-items-center">
+                                                <img src="dump/project-list2-img.jpg" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="card-body col-12 col-md-7 col-lg-7 px-3 py-lg-0">
+                                        <a href="#!" class="d-block h5 font-weight-bold mb-0">
+                                            Childcare & Elephant Volunteer Experience
+                                        </a>
+                                        <small> Delhi | 2 Week Specials</small>
+                                        <ul class="list-unstyled programs-tags d-flex flex-wrap my-2">
+                                            <li>
+                                                <i class="fa fa-clock"></i> 2-12 Weeks
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-user"></i> 18+ years
+                                            </li>
+                                        </ul>
+                                        <p class="card-text mb-2 small-1 text-muted">
+                                            Be a part of Childcare & Elephant Volunteering Experience in
+                                            India, teach street kids in Delhi, work with elephants in Agra,
+                                            and city tour of Jaipur...
+                                        </p>
+                                        <h6>Get involved to make an impact</h6>
+                                        <div
+                                            class="program-footer d-flex flex-wrap align-items-center position-relative">
+                                            <ul class="list-unstyled d-flex flex-wrap un-goals mb-0">
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/13.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>Climate Action</span>
+                                                </li>
+                                                <li class="mr-1">
+                                                    <figure class="mb-1">
+                                                        <img src="assets/images/un-goals/15.jpg" alt="1"
+                                                            class="img-fluid">
+                                                    </figure>
+                                                    <span>Life on Land</span>
+                                                </li>
+                                            </ul>
+
+                                            <a href="#!" class="btn btn-outline-primary program-btn"> View
+                                                Details</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End List of programs -->
+
+                                <div class="d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-center my-5">
+                                   <div class="text-center">
+                                    <span class="d-block"><i class="fa fa-spinner fa-pulse fa-2x"></i></span>
+                                    <small class="pr-3 d-block">programs Loading </small>
+                                   </div>
+                                </div>
+
+                            </div> 
+                        </div>
+                        <!-- right side -->
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="pt-5 bg-light-blue bg-lines-dark testimonial-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mb-5 mt-4">
+                            <h3 class="h3 font-weight-bold big-text-heading">
+                                How To Apply
+                            </h3>
+                            <p>Volunteer in India with Volunteering Solutions to choose from a diverse range of
+                                meaningful and affordable volunteering opportunities including
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="faq-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 position-relative">
+                            <div class="top-90 w-100 p-4 rounded bg-white shadow-sm">
+                                <ul class="list-unstyled mt-5 w-100 grid grid-col-lg-7 text-center line-height-2">
+                                    <li>
+                                        <span class="d-block">
+                                            <img src="assets/images/icons/log-in.svg" alt="next" width="80px">
+                                        </span>
+                                        <span class="d-block font-weight-bold mt-3">
+                                            Login To Volunteering Solutions
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/next.svg" alt="next" width="30px">
+                                    </li>
+                                    <li>
+                                        <span class="d-block">
+                                            <img src="assets/images/icons/destination.svg" alt="destination" width="80px">
+                                        </span>
+                                        <span class="d-block font-weight-bold mt-3">
+                                            Select Your Destination & Project
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/next.svg" alt="next" width="30px">
+                                    </li>
+                                    <li>
+                                        <span class="d-block">
+                                            <img src="assets/images/icons/insured.svg" alt="Payment" width="80px">
+                                        </span>
+                                        <span class="d-block font-weight-bold mt-3">
+                                            Fill The Application Form & Make Payment To Secure Your Place
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/icons/next.svg" alt="next" width="30px">
+                                    </li>
+                                    <li>
+                                        <span class="d-block">
+                                            <img src="assets/images/icons/rucksack.svg" alt="Go" width="80px">
+                                        </span>
+                                        <span class="d-block font-weight-bold mt-3">
+                                            Hurry! There You Go!
+                                        </span>
+                                    </li>
+                                </ul>
+                               
+                                <div class="w-100 text-center">
+                                    <a href="#!" class="btn btn-outline-danger px-lg-5 btn-lg my-4">Apply Now <i class="fa fa-angle-right"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <section class="bg-white">
+            <div class="container bg-primary-light shadow position-relative top-50 bg-subscribe">
+                <div class="row">
+                    <div class="col-12 col-lg-8 p-3">
+                        <form action="#!">
+                            <label for="newsletter" class="text-white">Subscribe to the newsletter</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control bdr-rounded mr-lg-4"
+                                    placeholder="Enter Your Email">
+                                <button class="btn btn-danger text-nowrap px-lg-5">Subscribe <i
+                                        class="fa fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-auto ml-auto p-3">
+                        <label for="newsletter" class="text-white">Subscribe to the newsletter</label>
+                        <div class="d-flex">
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-youtube fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-vimeo-v fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 bg-lines">
+            <div class="container small mt-5">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">QUICK LINKS</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!">Apply Now</a></li>
+                                <li><a href="#!">Blog</a></li>
+                                <li><a href="#!">My Account</a></li>
+                                <li><a href="#!">Make a Payment</a></li>
+                                <li><a href="#!">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">ABOUT VOLSOL</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!">About Us</a></li>
+                                <li><a href="#!">FAQ</a></li>
+                                <li><a href="#!">Privacy Policy</a></li>
+                                <li><a href="#!">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">CONTACT</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!"><i class="fab fa-whatsapp"></i> +44-785-623-4872</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 0-800-014-8160 UK (Toll Free)</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 1-888-790-3096 US/CAN (Toll Free)</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 1-800-149-751 Australia (Toll Free)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">
+                                    <img src="assets/images/WYSE_FullMember_Grey-blue.png" alt="wyse" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <h5 class="font-weight-bold h6 mt-3">Regional websites</h5>
+                                <a href="#!volunteer-in-ireland">
+                                    <span class="flag flag-gb"></span>UK Website </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-muted text-center ">
+                        © 2020 Volunteering Travel Solutions Pvt. Ltd. All Rights Reserved. CIN:U74140DL2009PTC191429
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+
+
+        <script src="vendors/jquery/jquery.slim.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/popper.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+        <script src="vendors/owl/js/owl.carousel.js"></script>
+        <link rel="stylesheet" href="vendors/owl/css/owl.carousel.min.css">
+
+        <script src="assets/dist/js/comman.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    responsiveClass: true,
+                    dots: true,
+                    nav: false,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        600: {
+                            items: 1,
+                        },
+                        1000: {
+                            items: 1,
+                            margin: 20
+                        }
+                    }
+                });
+            })
+        </script>
+
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="myVideo" tabindex="-1" role="dialog"
+            aria-labelledby="myVideoLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <button type="button" class="close fa-4x" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="common.js" id="video" allowscriptaccess="always"
+                        allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>

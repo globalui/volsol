@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Home</title>
+
+        <link rel="stylesheet" href="vendors/bootstrap/dist/css/min/bootstrap.css">
+        <!--  <link rel="stylesheet" href="vendors/icomoon/style.css"> -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/dist/css/app.css">
+        <link rel="stylesheet" href="vendors/flags/flags.css">
+
+
+    </head>
+
+    <body>
+        <header class="header-bar bg-primary">
+            <div class="container-fluid d-none d-lg-flex bg-primary-light nav-light">
+                <div class="container d-flex">
+                    <ul class="ml-0 list-unstyled d-flex small mb-0 p-2 align-items-center">
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fab fa-whatsapp"></i> +44-785-623-4872
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fa fa-envelope"></i> info@volunteeringsolutions.com
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="ml-auto list-unstyled d-flex small mb-0 p-2 align-items-center">
+                        <li>
+                            <a href="#!" class="px-1">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-1">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-1">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-1">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-1">
+                                <i class="fab fa-vimeo"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-xl bg-primary navbar-dark container py-lg-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.svg" alt="VolSol">
+                </a>
+                <div class="d-flex ml-auto align-content-center show-on-mobile">
+                    <!-- showing Only in mobile -->
+                    <ul class="list-unstyled ml-lg-auto d-flex d-lg-none mb-0 mr-2">
+                        <li class="nav-item mr-lg-3">
+                            <a class="nav-link text-white" href="#!">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="btn btn-danger px-lg-4 text-nowrap apply-btn" href="#!">Write For US</a>
+                        </li>
+                    </ul>
+                    <!-- Showing Only Mobile Apply now and search btn -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse slider-navbar" id="navbarContent">
+                    <ul class="navbar-nav ml-auto position-relative" data-navstyle="js">
+                        <li class="nav-item dropdown dropdown-animate position-static">
+                            <a class="nav-link dropdown-toggle active" href="#!volunteering-destinations">
+                                Destinations </a>
+                            <div class="dropdown-menu shadow custom-menu w-100">
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-asia">
+                                            Asia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-bali">
+                                            <span class="flag flag-id"></span>Bali </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-cambodia">
+                                            <span class="flag flag-kh"></span>Cambodia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-china">
+                                            <span class="flag flag-cn"></span>China </a>
+                                    </li>
+                                    <li>
+                                        <a href="country-index.html">
+                                            <span class="flag flag-in"></span>India </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-malaysia">
+                                            <span class="flag flag-my"></span>Malaysia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-nepal">
+                                            <span class="flag flag-np"></span>Nepal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-philippines">
+                                            <span class="flag flag-ph"></span>Philippines </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-sri-lanka">
+                                            <span class="flag flag-lk"></span>Sri Lanka </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-thailand">
+                                            <span class="flag flag-th"></span>Thailand </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-vietnam">
+                                            <span class="flag flag-vn"></span>Vietnam </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-africa">
+                                            Africa </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ghana">
+                                            <span class="flag flag-gh"></span>Ghana </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-kenya">
+                                            <span class="flag flag-ke"></span>Kenya </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-madagascar">
+                                            <span class="flag flag-mg"></span>Madagascar </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-morocco">
+                                            <span class="flag flag-ma"></span>Morocco </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-south-africa">
+                                            <span class="flag flag-za"></span>South Africa </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-tanzania">
+                                            <span class="flag flag-tz"></span>Tanzania </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-uganda">
+                                            <span class="flag flag-ug"></span>Uganda </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-australasia">
+                                            Australasia &amp; Pacific </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-australia">
+                                            <span class="flag flag-au"></span>Australia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-new-zealand">
+                                            <span class="flag flag-nz"></span>New Zealand </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-north-america">
+                                            North America </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-mexico">
+                                            <span class="flag flag-mx"></span>Mexico </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-south-america">
+                                            South America </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-brazil">
+                                            <span class="flag flag-br"></span>Brazil </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-costa-rica">
+                                            <span class="flag flag-cr"></span>Costa Rica </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ecuador">
+                                            <span class="flag flag-ec"></span>Ecuador </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-peru">
+                                            <span class="flag flag-pe"></span>Peru </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-europe">
+                                            Europe </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ireland">
+                                            <span class="flag flag-ie"></span>Ireland </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-portugal">
+                                            <span class="flag flag-pt"></span>Portugal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-spain">
+                                            <span class="flag flag-es"></span>Spain </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="nav-link " href="!#">Projects</a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="nav-link " href="!#">Quiz</a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="nav-link " href="!#">Guidbook</a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="nav-link " href="!#">Reviews</a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="btn btn-danger px-lg-4 text-nowrap apply-btn" href="#!">Write For US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="wrapper bg-white">
+            <article class="pb-5 pt-4">
+                <div class="container">
+                    <div class="row">
+                        <!-- right side -->
+                        <div class="col-12 col-lg-8 p-3 p-lg-4">
+                            <div aria-label="breadcrumb">
+                                <ol class="breadcrumb dark-crumb">
+                                    <li class="breadcrumb-item"><a href="#!">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Remember These Safety Tips
+                                        While Volunteering Abroad</li>
+                                </ol>
+                            </div>
+                            <h1 class="blog-border-title title-border-dark mb-4 small-title">Remember These Safety Tips
+                                While Volunteering Abroad
+                            </h1>
+                            <hr>
+                            <ul class="list-unstyled tag-list small-1 d-flex flex-wrap">
+                                <li class="mr-3 meta-tag d-flex flex-wrap align-items-center">
+                                    <i class="fa fa-tag mr-1"></i>
+                                    <a href="#" rel="tag">About volunteering - Safety Tips</a> ,
+                                    <a href="#" rel="tag">How to Stay Safe While Volunteering</a> ,
+                                    <a href="#" rel="tag">safety tips for volunteers</a> ,
+                                    <a href="#" rel="tag">safety while volunteering abroad</a> ,
+                                    <a href="#" rel="tag">Top Safety Tips for Volunteering</a> ,
+                                    <a href="#" rel="tag">Top Volunteer Safety Tips</a>
+                                </li>
+                                <li class="vs-meta-category mr-3">
+                                    <i class="fa fa-folder"></i>
+                                    <a href="#" rel="category tag">Volunteer Abroad</a>
+                                </li>
+                                <li class="vs-meta-category mr-3">
+                                    <i class="fa fa-eye"></i>
+                                    435 VIEWS
+                                </li>
+                            </ul>
+                            <hr>
+                            <div class="vs-entry-content">
+                                <p><span style="font-weight: 400;">Volunteering, studying, or even just visiting abroad
+                                        is always an exciting venture. Especially straight out of school, or newly
+                                        graduated, traveling as a young adult is an inevitable learning experience, an
+                                        eye-opener, and more than anything it will provide you with memories that you’ll
+                                        never forget. Volunteering abroad, especially, helps you attain this experience
+                                        most significantly. But, sometimes things go wrong, and no matter how safe the
+                                        place you are visiting is, there are always dangers when you’re somewhere
+                                        foreign, and even more so when you don’t speak the language.</span></p>
+                                <p><span style="font-weight: 400;">When you plan for your volunteering journey abroad,
+                                        one natural question that’ll surely strike you is – “Will I be safe?”</span></p>
+                                <p><span style="font-weight: 400;">While volunteer trips can be incredible on the one
+                                        hand, they can be quite dangerous if the correct safety measures aren’t
+                                        followed. Moreover, when you choose to embark on your journey through
+                                        Volunteering Solutions, we make sure that you are absolutely safe in whichever
+                                        part of the world you go to. Our in-country coordinators are there at every
+                                        project location to take care of the volunteers and guide them whenever
+                                        required.</span></p>
+                                <h2><span>In spite of that, we would like to mention some
+                                        safety tips that you should keep in mind while you are traveling abroad for
+                                        volunteer work.</span></h2>
+                                <p><img class="aligncenter size-full img-fluid wp-image-8221"
+                                        src="https://www.volunteeringsolutions.com/blog/wp-content/uploads/2019/03/Hippotherapy-12.jpg"
+                                        alt="Hippotherapy volunteering in Argentina" width="960" height="640"
+                                        srcset="https://www.volunteeringsolutions.com/blog/wp-content/uploads/2019/03/Hippotherapy-12.jpg 960w, https://www.volunteeringsolutions.com/blog/wp-content/uploads/2019/03/Hippotherapy-12-700x467.jpg 700w"
+                                        sizes="(max-width: 960px) 100vw, 960px"></p>
+                                <h3>1. Prepare yourself</h3>
+                                <p><span style="font-weight: 400;">Yes, this is quite self-explanatory. But preparation
+                                        doesn’t just mean packing warm clothes for cooler weather. Instead, jump online
+                                        and have a look at where you’re visiting. Does it have a stable political
+                                        situation? Are there any extremists? What is the crime rate like? These are just
+                                        a few, yet, highly important questions you should be asking. Even in highly
+                                        westernized countries such as England, there are going to be hazards, so just
+                                        make sure you have a look at where you’re going.</span></p>
+                                <h3>2. Keep an eye on your belongings</h3>
+                                <p><span style="font-weight: 400;">We always warn volunteers not to bring any valuable
+                                        items with them. Most of the volunteering placements are located in areas where
+                                        people are less privileged and don’t have much exposure to the otherwise
+                                        luxurious world. Naturally, they have a tendency to sneak out for things that
+                                        intrigue their interest. Also, while you take local transportation, you need to
+                                        be careful about your wallet and money. It is best not to carry much cash with
+                                        you. When people understand that you are from the Western world, you easily
+                                        become a target of pickpocketing. Therefore, it is extremely necessary to be
+                                        careful about what you are carrying.</span></p>
+                                <h3>3. Scan your important documents</h3>
+                                <p><span style="font-weight: 400;">Yes – scan and keep photocopies of your Passport,
+                                        Visa, Medical Insurance and all other important documents that you are carrying.
+                                        After all, we are human beings, and things might get misplaced. While it would
+                                        be easier to get these retrieved in your home country, in a foreign land things
+                                        would become worse if you don’t have these essential docs.</span></p>
+                                <h3>4. Get a health check-up done</h3>
+                                <p><span style="font-weight: 400;">Before you set sail, do check once with your doctor.
+                                        Do proper research about the climatic conditions of the place where you’ll
+                                        travel to, and ask your doctor if you need to follow any particular diet. For
+                                        example, if you are from a country with a moderately colder climate and you are
+                                        traveling to a tropical region, your body might not get adapted to the heat
+                                        easily. There are chances that you can get sunburn or rashes. Follow your
+                                        doctor’s advice in this regard. Also, get all the necessary vaccinations.
+                                    </span></p>
+                                <h3>5. Dress properly</h3>
+                                <p><span style="font-weight: 400;">The clothes you wear back home might not be suitable
+                                        for your volunteering site. Many countries say, for example, India, are very
+                                        particular when it comes to clothing and it is advisable that you wear clothes
+                                        that fully cover your body. Also, avoid wearing clothes that are too skimpy.
+                                        While at work, you’ll need to be comfortable in whatever you are wearing. Do
+                                        proper research on what’s acceptable in your host country and be respectful
+                                        toward their customs. We are sure that following local customs will help you
+                                        avoid any unwanted attention.</span></p>
+                                <h3>6. Don’t go out alone at night</h3>
+                                <p><span style="font-weight: 400;">No matter in which country you are, we would advise
+                                        you not to go out alone at night. If you want to explore the nightlife or attend
+                                        parties, ask you, fellow mates, to accompany you. Also, inform your in-country
+                                        coordinator about the place where you want to go, so that he/she can reach you
+                                        in the case of any emergency. As a general rule, avoid walking at the late hours
+                                        of the night by yourself, and avoid very isolated areas where you might easily
+                                        be approached by a stranger. We are not saying that all strangers would have the
+                                        mindset to cause you harm, but it’s just a safety measure that you should follow
+                                        while you are in a foreign land.</span></p>
+                                <h3>7. Don’t indulge yourself in too much alcohol consumption</h3>
+                                <p><span style="font-weight: 400;">It can be extremely tempting to relax and sip in some
+                                        alcohol while you are traveling abroad. But, remember that you become extremely
+                                        vulnerable when you are drunk. A little bit of drinking with your teammates can
+                                        be fine, but make sure not to get so drunk that you lose all your consciousness
+                                        and allow people to take advantage of you.</span></p>
+                                <h3>8. Keep in touch with your friends and family back home</h3>
+                                <p><span style="font-weight: 400;">It’s always good to be in touch with the near and
+                                        dear ones, even when you are traveling abroad. While international calls are
+                                        expensive, you can stay connected through Skype or Whatsapp. Tell them where you
+                                        are, how you are living and who you are with. Also, give them some contact
+                                        details where they can contact if you are directly unreachable. This will lessen
+                                        their worries, and ensure your safety.</span></p>
+                                <h3>9.Travel insurance</h3>
+                                <p><span style="font-weight: 400;">Never underestimate the </span><span
+                                        style="font-weight: 400;">importance of <a
+                                            href="https://www.volunteeringsolutions.com/insurance">getting proper travel
+                                            insurance</a></span><span style="font-weight: 400;">! It’s absolutely
+                                        necessary no matter where you go; often, travel insurance will cover aspects
+                                        such as canceled flights, accommodation refunds, and ticket cancellations. If
+                                        something goes wrong, even if it’s a small issue, you want to travel with the
+                                        assurance that you’ll be covered and prepared in the case of an
+                                        emergency.</span></p>
+                                <h2>And my final tip for you? Have fun!</h2>
+                                <p><span style="font-weight: 400;">Traveling in anxiety isn’t fun at all. Just make sure
+                                        that you’re prepared in case something goes wrong. If you <a
+                                            href="https://www.volunteeringsolutions.com/volunteer-abroad-programs"
+                                            target="_blank" rel="noopener noreferrer">choose to take up volunteering
+                                            work</a> while traveling abroad then you don’t have to worry about anything
+                                        as it is, since a dedicated local coordinator will always be there to guide and
+                                        support you.</span></p>
+                                <p><span style="font-weight: 400;">The volunteering vacation will absolutely change your
+                                        way to look at life. It’ll make you a much stronger and confident human being
+                                        and you’ll cherish these memories forever. But all this will only be possible
+                                        when you are safe while traveling. And as the famous saying goes, “It’s better
+                                        to be safe than sorry”. </span></p>
+                                <p><span style="font-weight: 400;">For any other safety tips, you can always reach out
+                                        to your in-country coordinator who can guide you about your moves. Also, follow
+                                        the Pre-Departure Booklet that you’ll receive once you <a
+                                            href="https://www.volunteeringsolutions.com/volunteer-abroad-programs"
+                                            target="_blank" rel="noopener noreferrer">book your program with
+                                            Volunteering Solutions</a>. And of course, our Program Advisors are always
+                                        there to help you out at any given point in time – just drop a mail at
+                                        <strong>info@volunteeringsolutions.com</strong> and someone will get back to
+                                        you!</span></p>
+                                <p><span style="font-weight: 400;">We hope that you’ll have an amazing and safe
+                                        journey.</span></p>
+                                <p>&nbsp;</p>
+                            </div>
+                            <hr>
+                            <div class="wp-post-author-wrap wp-post-author-shortcode left">
+                                <h3 class="awpa-title"></h3>
+                                <div class="wp-post-author d-flex">
+                                    <div class="awpa-img awpa-author-block square mr-3">
+                                        <a href="https://www.volunteeringsolutions.com/blog/author/riyanka-roy/">
+                                            <img alt=""
+                                                src="https://secure.gravatar.com/avatar/04b3fb7e091da5981ce79b2db2d162d6?s=150&amp;r=g"
+                                                srcset="https://secure.gravatar.com/avatar/04b3fb7e091da5981ce79b2db2d162d6?s=300&amp;r=g 2x"
+                                                class="rounded" height="80" width="80"></a>
+                                    </div>
+                                    <div class="wp-post-author-meta awpa-author-block">
+                                        <h6 class="awpa-display-name">
+                                            <a href="#">Riyanka Roy</a>
+                                        </h6>
+                                        <div class="wp-post-author-meta-bio text-muted small">
+                                            <p>I feel I’m born with gypsy blood, and stagnation makes me feel
+                                                claustrophobic. Life, for me, is like a book and whatever we do adds
+                                                more chapters...</p>
+                                        </div>
+                                        <div class="wp-post-author-meta-more-posts">
+                                            <p class="awpa-more-posts">
+                                                <a href="#" class="awpa-more-posts">See author's posts</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <!-- right side -->
+                        <aside class="col-12 col-lg-4" data-mobile-aside="accordion">
+                            <div class="sticky-top mb-5">
+                                <h4 class="h5 font-weight-bold mb-4">Recommended Blogs</h4>
+                                <ul class="list-unstyled">
+                                    <li class="d-flex flex-wrap mb-3">
+                                        <figure class="col-4 px-0">
+                                            <img src="dump/gl/3.jpg" alt="a" class="img-fluid">
+                                        </figure>
+                                        <div class="caption-container col-8 px-2 line-height-2">
+                                            <div class="text-muted mb-2">Volunteer Abroad</div>
+                                            <a href="#!" class="font-weight-bold text-dark">11 Recommended Pre-Med
+                                                Volunteering
+                                                Programs Abroad For 2020</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex flex-wrap mb-3">
+                                        <figure class="col-4 px-0">
+                                            <img src="dump/gl/2.jpg" alt="a" class="img-fluid">
+                                        </figure>
+                                        <div class="caption-container col-8 px-2 line-height-2">
+                                            <div class="text-muted mb-2">Volunteer Abroad</div>
+                                            <a href="#!" class="font-weight-bold text-dark">11 Recommended Pre-Med
+                                                Volunteering
+                                                Programs Abroad For 2020</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex flex-wrap mb-3">
+                                        <figure class="col-4 px-0">
+                                            <img src="dump/gl/1.jpg" alt="a" class="img-fluid">
+                                        </figure>
+                                        <div class="caption-container col-8 px-2 line-height-2">
+                                            <div class="text-muted mb-2">Volunteer Abroad</div>
+                                            <a href="#!" class="font-weight-bold text-dark">11 Recommended Pre-Med
+                                                Volunteering
+                                                Programs Abroad For 2020</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex flex-wrap mb-3">
+                                        <figure class="col-4 px-0">
+                                            <img src="dump/gl/5.jpg" alt="a" class="img-fluid">
+                                        </figure>
+                                        <div class="caption-container col-8 px-2 line-height-2">
+                                            <div class="text-muted mb-2">Volunteer Abroad</div>
+                                            <a href="#!" class="font-weight-bold text-dark">11 Recommended Pre-Med
+                                                Volunteering
+                                                Programs Abroad For 2020</a>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </aside>
+                        <!-- End Aside Bar -->
+
+                    </div>
+                </div>
+            </article>
+            <section class="bg-light section-style ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <h4>Leave a Reply </h4>
+                            <p class="text-muted">Your email address will not be published. Required fields are marked *
+                            </p>
+                            <div class="form-group">
+                                <textarea name="enter-your-comment" placeholder="Enter Your Comment..." id="" cols="30"
+                                    rows="5" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" placeholder="Website">
+                            </div>
+                            <div class="form-inline mb-3">
+                                <input type="checkbox" name="check" class="mr-1" id="saveData">
+                                <label for="saveData" class="text-muted">Save my name, email, and website in this
+                                    browser for the next time I comment.</label>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary">Post Comment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <section class="bg-white">
+            <div class="container bg-primary-light shadow position-relative top-50 bg-subscribe">
+                <div class="row">
+                    <div class="col-12 col-lg-8 p-3">
+                        <form action="#!">
+                            <label for="newsletter" class="text-white">Subscribe to the newsletter</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control bdr-rounded mr-lg-4"
+                                    placeholder="Enter Your Email">
+                                <button class="btn btn-danger text-nowrap px-lg-5">Subscribe <i
+                                        class="fa fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-auto ml-auto p-3">
+                        <label for="newsletter" class="text-white">Subscribe to the newsletter</label>
+                        <div class="d-flex">
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-youtube fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-vimeo-v fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 bg-lines">
+            <div class="container small mt-5">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">QUICK LINKS</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!">Apply Now</a></li>
+                                <li><a href="#!">Blog</a></li>
+                                <li><a href="#!">My Account</a></li>
+                                <li><a href="#!">Make a Payment</a></li>
+                                <li><a href="#!">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">ABOUT VOLSOL</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!">About Us</a></li>
+                                <li><a href="#!">FAQ</a></li>
+                                <li><a href="#!">Privacy Policy</a></li>
+                                <li><a href="#!">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">CONTACT</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!"><i class="fab fa-whatsapp"></i> +44-785-623-4872</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 0-800-014-8160 UK (Toll Free)</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 1-888-790-3096 US/CAN (Toll Free)</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 1-800-149-751 Australia (Toll Free)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">
+                                    <img src="assets/images/WYSE_FullMember_Grey-blue.png" alt="wyse" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <h5 class="font-weight-bold h6 mt-3">Regional websites</h5>
+                                <a href="#!volunteer-in-ireland">
+                                    <span class="flag flag-gb"></span>UK Website </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-muted text-center ">
+                        © 2020 Volunteering Travel Solutions Pvt. Ltd. All Rights Reserved. CIN:U74140DL2009PTC191429
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+
+
+        <script src="vendors/jquery/jquery.slim.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/popper.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+        <script src="vendors/owl/js/owl.carousel.js"></script>
+        <link rel="stylesheet" href="vendors/owl/css/owl.carousel.min.css">
+
+        <script src="assets/dist/js/comman.js"></script>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="myVideo" tabindex="-1" role="dialog"
+            aria-labelledby="myVideoLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <button type="button" class="close fa-4x" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="common.js" id="video" allowscriptaccess="always"
+                        allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calender Style -->
+        <link rel="stylesheet" type="text/css" href="vendors/evo-calendar/css/evo-calendar.css">
+        <link rel="stylesheet" type="text/css" href="vendors/evo-calendar/css/evo-calendar.midnight-blue.css">
+
+        <script src="vendors/evo-calendar/js/evo-calendar.js"></script>
+
+        <script>
+            // initialize your calendar, once the page's DOM is ready
+
+            $(document).ready(function () {
+
+                $('#calendar').evoCalendar({
+                    getActiveEvents: true,
+                    theme: 'Midnight Blue',
+                    'eventDisplayDefault': true,
+                    calendarEvents: [{
+                            id: 1,
+                            date: "May/13/2020",
+                            type: "not-available"
+                        },
+                        {
+                            id: 2,
+                            date: "May/14/2020",
+                            type: "fillingfast"
+                        },
+                        {
+                            id: 3,
+                            date: "May/15/2020",
+                            type: "available"
+                        },
+                        {
+                            id: 3,
+                            date: "May/15/2021",
+                            type: "available"
+                        }
+                    ]
+
+                })
+
+                function customCalenderFunction() {
+                    var setStartYear = '2020';
+                    var setLastYear = '2021';
+
+                    var getCYear = $('.calendar-year').children('p').text();
+                    $('[data-year-val="prev"]').addClass('d-none');
+
+                    if (getCYear === setStartYear) {
+                        $('[data-year-val="prev"]').addClass('d-none');
+                        $('[data-year-val="next"]').removeClass('d-none');
+                    }
+                    if (getCYear != setStartYear) {
+                        $('[data-year-val="prev"]').removeClass('d-none');
+                        $('[data-year-val="next"]').removeClass('d-none');
+                    }
+                    if (getCYear === setLastYear) {
+                        $('[data-year-val="next"]').addClass('d-none');
+                        $('[data-year-val="prev"]').removeClass('d-none');
+                    }
+                }
+                customCalenderFunction();
+
+                $('.calendar-year button').on('click', function () {
+                    customCalenderFunction();
+                });
+
+
+            })
+        </script>
+    </body>
+
+</html>

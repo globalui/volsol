@@ -1,0 +1,90 @@
+.hero {
+  overflow: hidden;
+
+  .hero-caption {
+    bottom: 0px;
+  }
+
+  &.home-banner {
+    height: 300px;
+
+    @media(min-width:768px) {
+      height: calc(60vw - 100px);
+    }
+
+    @media(min-width:992px) {
+      height: calc(60vw - 200px);
+    }
+
+    .heading-text {
+      font-family: $font-heading;
+      font-size: calc(1rem + 2vw);
+    }
+
+  }
+
+  &.inner-banner {
+    height: 300px;
+
+    @media(min-width:768px) {
+      height: calc(60vw - 150px);
+    }
+
+    @media(min-width:992px) {
+      height: calc(60vw - 300px);
+    }
+
+    .heading-text {
+      font-family: $font-heading;
+      font-size: calc(1rem + 2vw);
+    }
+
+  }
+  &.inner-sub-banner {
+    height: 300px;
+
+    @media(min-width:768px) {
+      height: 450px;
+    } 
+
+    .heading-text {
+      font-family: $font-heading;
+      font-size: calc(1rem + 2vw);
+    }
+
+  }
+
+
+  &.inner-detail-banner {
+    padding-top: 5rem;
+
+    .hero-caption {
+      position: relative;
+      z-index: 1;
+    }
+
+    .heading-text {
+      font-family: $font-heading;
+      font-size: calc(0.8rem + 1.5vw);
+    }
+
+  }
+}
+
+.img-bg-with-shadow {
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  &:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;content: "";
+    background: -moz-linear-gradient(top,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000',endColorstr='#d1000000',GradientType=0 );
+  }
+}

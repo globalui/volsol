@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payments</title>
+
+        <link rel="stylesheet" href="vendors/bootstrap/dist/css/min/bootstrap.css">
+        <!--  <link rel="stylesheet" href="vendors/icomoon/style.css"> -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/dist/css/app.css">
+        <link rel="stylesheet" href="vendors/flags/flags.css">
+    </head>
+
+    <body>
+
+
+        <main class="wrapper">
+            <section class="pt-5 bg-primary bg-lines testimonial-section text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mb-5 pb-3 text-center">
+                            <a href="index.html">
+                                <img src="assets/images/logo.svg" alt="VolSol" width="250px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="faq-section">
+                <div class="container">
+                    <div class="row top-90 ">
+
+                        <div class="col-12 col-lg-8 mb-4 mb-lg-0 offset-lg-2">
+                            <form action="" method="POST" class="w-100 p-4 rounded bg-white shadow-sm">
+                                <h5 class="mb-4">Select who you are paying for</h5>
+                                <div class="custom-control custom-radio px-0 mb-4">
+                                    <div class="form-check mr-5  pl-4 d-inline-flex">
+                                        <input id="is_checkLogin_true" name="checkLogin" checked="checked" type="radio"
+                                            class="custom-control-input" value="yes">
+                                        <label class="custom-control-label text-muted font-weight-light"
+                                            for="is_checkLogin_true"> Already
+                                            I am paying for myself * </label>
+                                    </div>
+                                    <div class="form-check d-inline-flex">
+                                        <input id="is_checkLogin_false" name="checkLogin" type="radio"
+                                            class="custom-control-input" value="no">
+                                        <label class="custom-control-label text-muted font-weight-light"
+                                            for="is_checkLogin_false"> I am paying for someone else * </label>
+                                    </div>
+                                </div>
+
+                                <div class="is_login_form_false row mb-4">
+                                    <div class="col-12">
+                                        <h5 class="mb-4">Participant Details </h5>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="Email" class="font-weight-bold">Email</label>
+                                        <input name="Email" class="form-control" type="email" id="Email">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="font-weight-bold">Country of Residence *</label>
+                                        <select name="StartDate" class="form-control" id="StartDate">
+                                            <option value="">----</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName" class="font-weight-bold">First Name *</label>
+                                        <input name="firstName" class="form-control" type="text" id="firstName">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="font-weight-bold">Last Name *</label>
+                                        <input name="lastName" class="form-control" type="text" id="lastName">
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="Address" class="font-weight-bold">Payment Note *</label>
+                                        <textarea name="Address" id="Address" cols="30" rows="2"
+                                            class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="is_login_form_false row mb-4">
+                                    <div class="col-12">
+                                        <h5 class="mb-4">Your Details / Card Holder Details </h5>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="pDetailsFirstName" class="font-weight-bold">First Name *</label>
+                                        <input name="pDetailsFirstName" class="form-control" type="text" id="pDetailsFirstName">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="pDetailsLastName" class="font-weight-bold">Last Name *</label>
+                                        <input name="pDetailsLastName" class="form-control" type="text" id="pDetailsLastName">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="pDetailsEmail" class="font-weight-bold">Email *</label>
+                                        <input name="pDetailsEmail" class="form-control" type="email" id="pDetailsEmail"> 
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="pDetailsPhone" class="font-weight-bold">Your Phone Number *</label>
+                                        <input name="pDetailsPhone" class="form-control" type="number" id="pDetailsPhone">
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-12 mb-3">
+                                        <h5 class="mb-4">Payment Details</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="SelectDestination" class="font-weight-bold">Choose Payment
+                                                    Type *</label>
+                                                <select name="SelectDestination" class="form-control"
+                                                    id="SelectDestination">
+                                                    <option value="">----</option>
+                                                    <option value="application">Application Fee</option>
+                                                    <option value="final">Program Fee</option>
+                                                    <option value="insurance">Insurance Payment</option>
+                                                    <option value="other">Other Payment</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="SelectDestination" class="font-weight-bold">Select Destination
+                                                    *</label>
+                                                <select name="SelectDestination" class="form-control" id="SelectDestination2">
+                                                    <option value="">----</option>
+                                                    <optgroup label="-Australia">
+                                                        <option value="89">Cairns</option>
+                                                        <option value="364">Gladstone</option>
+                                                        <option value="366">Tasmania</option>
+                                                        <option value="365">Yackandandah</option>
+                                                    </optgroup>
+                                                    <optgroup label="-Bali">
+                                                        <option value="64">Bali </option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-3 mb-0">
+                                                <label for="Currency" class="font-weight-bold">Select Currency *</label>
+                                                <select name="Currency" class="form-control">
+                                                    <option value="1" selected="selected">USD</option>
+                                                    <option value="6">AUD</option>
+                                                    <option value="4">EUR</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 mb-0">
+                                                <label for="ammount" class="font-weight-bold">Ammount: </label>
+                                                <input name="ammount" class="form-control" type="number" id="ammount">
+                                            </div>
+                                        </div>
+                                        <span class="alert alert-warning small d-inline-block mt-2 mb-0 px-2 py-1">
+                                            (Please Note: A 4% international banking fee is charged at the time of
+                                            payment)
+                                        </span>
+                                    </div>
+                                    <div class="col-12 col-lg-7 mb-3">
+                                        <label class="font-weight-bold">I have Discount Code</label>
+                                        <div class="d-flex">
+                                            <input name="discount_code" class="form-control bdr-rounded"
+                                                id="discount_code" type="text">
+                                            <span class="input-group-btn ml-2">
+                                                <input type="button" class="btn btn-discount btn-outline-danger"
+                                                    value="Apply Coupon">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-7 mb-3">
+                                        <label class="font-weight-bold">Payment Mode</label>
+                                        <div class="custom-control custom-radio">
+                                            <div class="form-check form-check-inline mr-5 ">
+                                                <input id="visa" name="payment_server_id" type="radio" value="1"
+                                                    class="custom-control-input" checked="checked">
+                                                <label class="custom-control-label cursor_pointer" for="visa">
+                                                    <img src="https://www.volunteeringsolutions.com/theme/Vs2018/img/icons/visa.png"
+                                                        alt="visa / master"> </label>
+                                            </div>
+                                            <div class="form-check form-check-inline mr-5">
+                                                <input id="paypal" name="payment_server_id" type="radio" value="2"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label cursor_pointer" for="paypal">
+                                                    <img src="https://www.volunteeringsolutions.com/theme/Vs2018/img/icons/paypal.png"
+                                                        alt="paypal"> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <div class="custom-control custom-checkbox px-1">
+                                            <div class="form-check mr-5 d-inline-flex ">
+                                                <input id="isAgree" name="paymentMethod" type="checkbox" checked=""
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="isAgree">
+                                                    I have read and agree to the Volunteering Solutions legal <a
+                                                        href="https://www.volunteeringsolutions.com/terms"
+                                                        target="_blank" class="text-danger">terms and conditions</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button class="btn btn-success mt-5 btn-lg px-5" type="button">
+                                            Make a Payment <i class="fa fa-angle-double-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+ 
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+        <script src="vendors/jquery/jquery.slim.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/popper.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+        <script src="vendors/owl/js/owl.carousel.js"></script>
+        <link rel="stylesheet" href="vendors/owl/css/owl.carousel.min.css">
+
+        <script src="assets/dist/js/comman.js"></script>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="myVideo" tabindex="-1" role="dialog"
+            aria-labelledby="myVideoLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <button type="button" class="close fa-4x" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="common.js" id="video" allowscriptaccess="always"
+                        allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>

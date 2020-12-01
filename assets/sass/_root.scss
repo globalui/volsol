@@ -1,0 +1,28 @@
+:root {
+  --font: 'Ubuntu', sans-serif;
+  --bg-gray: #eee;
+  --heading-font: 'Pacifico', cursive;
+
+  --insta-color: #c74b83;
+  --facebook-color: #3d62a0;
+
+  --black-text-color: #2a2a2a;
+  --p-text-color: #626262;
+
+  font-size: 17px;
+}
+
+.show-read-more .more-text,
+.small-show-read-more .more-text {
+  display: none;
+}
+
+.breadcrumb {
+
+  .breadcrumb-item + .breadcrumb-item::before,
+  li,
+  li.active,
+  a {
+    color: #d3d3d3;
+  }
+}

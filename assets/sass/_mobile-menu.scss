@@ -1,0 +1,109 @@
+[data-subnav="heading"],[data-subnav="js-navbar"]{
+    display: none;
+  }
+  
+@media(max-width:992px){
+    .overflow-hidden-body{
+        overflow:hidden !important;
+    }
+    .custom-menu ul li.vs-custom_list_group a {
+        color: #fff !important; 
+    }
+    [data-subnav="heading"], 
+    [data-subnav="js-navbar"] {
+        background: #F44336; 
+        color: #fff;
+        padding: 15px 10px;
+        width: 100%;
+        display: inline-block; 
+    }
+    .navbar-dark .navbar-nav .nav-link {
+
+        color: #fff;
+        background: #06233e;
+        margin-bottom: 2px;
+        padding: 10px 20px;
+        width: 100%;
+
+        /* &,&.active,&:hover,&:focus{
+           // color: #000;
+        } */
+    }
+    header .collapse:not(.show){
+        display: block !important;
+    }
+    .slider-navbar{
+        position: fixed;
+        min-width:400px;
+        background-color:$ui-primary;
+        left:-400px;
+        top:0px;  
+        height: 100vh; 
+        transition: all 0.2s ease;
+        display: block;
+        overflow:auto; 
+    
+        &.show{
+            left:0px;
+        }
+    }
+
+    .show-on-mobile{
+        .btn.apply-btn{
+            font-size:calc(.8rem + 0.2vw); 
+            padding:0.3rem  0.6rem;
+        }
+    }
+    .dropdown-menu{
+        padding: 0px;
+        margin: 0px;
+        display: block !important; 
+        position: fixed !important;
+         width:400px !important;
+        overflow: auto;
+        height: 100%;
+        background-color:$ui-primary; 
+        left:-400px;
+        top:0; 
+        transition: all 0.2s ease;
+        &.show{
+            left:0px;
+            transition: all 0.2s ease;
+        }
+    } 
+    .dropdown-toggle::after{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .custom-menu{
+         ul{
+            padding-left:20px;
+            padding-right:20px;
+            padding-top:10px;
+         } 
+    }
+}
+@media(max-width:768px){ 
+    .slider-navbar{ 
+        min-width:100%; 
+        left:-100%; 
+    }
+    .dropdown-menu{ 
+        width:100% !important;  
+        left:-110%;  
+    }
+ 
+}
+@media(max-width:400px){  
+    .navbar{
+        flex-wrap: nowrap;
+    }
+    .navbar-toggler {
+        padding: 0.25rem; 
+    }
+    .show-on-mobile .btn.apply-btn {
+        font-size: calc(0.6rem + 0.2vw);
+        padding: 0.3rem;
+    }
+}

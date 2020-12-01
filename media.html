@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media</title>
+
+        <link rel="stylesheet" href="vendors/bootstrap/dist/css/min/bootstrap.css">
+        <!--  <link rel="stylesheet" href="vendors/icomoon/style.css"> -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/dist/css/app.css">
+        <link rel="stylesheet" href="vendors/flags/flags.css">
+    </head>
+
+    <body>
+        <header class="header-bar bg-primary">
+            <div class="container-fluid d-none d-lg-flex bg-primary-light nav-light">
+                <div class="container d-flex">
+                    <ul class="ml-0 list-unstyled d-flex small mb-0 p-2 align-items-center">
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fab fa-whatsapp"></i> +44-785-623-4872
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fa fa-envelope"></i> info@volunteeringsolutions.com
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="ml-auto list-unstyled d-flex small mb-0 p-2 align-items-center">
+                        <li>
+                            <a href="#!" class="px-2">
+                                <i class="fas fa-blog"></i> Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="px-2">
+                                <i class="fa fa-user"></i> My Account
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-xl bg-primary navbar-dark container py-lg-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.svg" alt="VolSol">
+                </a>
+                <div class="d-flex ml-auto align-content-center show-on-mobile">
+                    <!-- showing Only in mobile -->
+                    <ul class="list-unstyled ml-lg-auto d-flex d-lg-none mb-0 mr-2">
+                        <li class="nav-item mr-lg-3">
+                            <a class="nav-link text-white" href="#!">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="btn btn-danger px-lg-4 text-nowrap apply-btn" href="#!">Apply Now</a>
+                        </li>
+                    </ul>
+                    <!-- Showing Only Mobile Apply now and search btn -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse slider-navbar" id="navbarContent">
+                    <ul class="navbar-nav ml-auto position-relative" data-navstyle="js">
+                        <li class="nav-item dropdown dropdown-animate position-static">
+                            <a class="nav-link dropdown-toggle active" href="#!volunteering-destinations">
+                                Destinations </a>
+                            <div class="dropdown-menu shadow custom-menu w-100">
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-asia">
+                                            Asia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-bali">
+                                            <span class="flag flag-id"></span>Bali </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-cambodia">
+                                            <span class="flag flag-kh"></span>Cambodia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-china">
+                                            <span class="flag flag-cn"></span>China </a>
+                                    </li>
+                                    <li>
+                                        <a href="country-index.html">
+                                            <span class="flag flag-in"></span>India </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-malaysia">
+                                            <span class="flag flag-my"></span>Malaysia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-nepal">
+                                            <span class="flag flag-np"></span>Nepal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-philippines">
+                                            <span class="flag flag-ph"></span>Philippines </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-sri-lanka">
+                                            <span class="flag flag-lk"></span>Sri Lanka </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-thailand">
+                                            <span class="flag flag-th"></span>Thailand </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-vietnam">
+                                            <span class="flag flag-vn"></span>Vietnam </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-africa">
+                                            Africa </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ghana">
+                                            <span class="flag flag-gh"></span>Ghana </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-kenya">
+                                            <span class="flag flag-ke"></span>Kenya </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-madagascar">
+                                            <span class="flag flag-mg"></span>Madagascar </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-morocco">
+                                            <span class="flag flag-ma"></span>Morocco </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-south-africa">
+                                            <span class="flag flag-za"></span>South Africa </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-tanzania">
+                                            <span class="flag flag-tz"></span>Tanzania </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-uganda">
+                                            <span class="flag flag-ug"></span>Uganda </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-australasia">
+                                            Australasia &amp; Pacific </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-australia">
+                                            <span class="flag flag-au"></span>Australia </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-new-zealand">
+                                            <span class="flag flag-nz"></span>New Zealand </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-north-america">
+                                            North America </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-mexico">
+                                            <span class="flag flag-mx"></span>Mexico </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-south-america">
+                                            South America </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-brazil">
+                                            <span class="flag flag-br"></span>Brazil </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-costa-rica">
+                                            <span class="flag flag-cr"></span>Costa Rica </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ecuador">
+                                            <span class="flag flag-ec"></span>Ecuador </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-peru">
+                                            <span class="flag flag-pe"></span>Peru </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-in-europe">
+                                            Europe </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-ireland">
+                                            <span class="flag flag-ie"></span>Ireland </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-portugal">
+                                            <span class="flag flag-pt"></span>Portugal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-in-spain">
+                                            <span class="flag flag-es"></span>Spain </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="#!intern-abroad">
+                                Intern Abroad </a>
+
+                            <div class="dropdown-menu custom-menu shadow">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-india">
+                                            <span class="flag flag-in"></span>
+                                            Intern in India </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-nepal">
+                                            <span class="flag flag-np"></span>
+                                            Intern in Nepal </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-peru">
+                                            <span class="flag flag-pe"></span>
+                                            Intern in Peru </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!intern-abroad/intern-in-thailand">
+                                            <span class="flag flag-th"></span>
+                                            Intern in Thailand </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle active" href="#!volunteer-abroad-programs">
+                                Projects </a>
+
+                            <div class="dropdown-menu shadow custom-menu">
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!volunteer-abroad-programs">
+                                            Volunteer Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!medical-volunteer-abroad-programs">
+                                            <i class="fa fa-medkit"></i>Medical &amp; Healthcare </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!wildlife-conservation-volunteer-abroad-projects">
+                                            <i class="fa fa-paw"></i>Wildlife &amp; Animal Care </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!childcare-volunteer-abroad-projects">
+                                            <i class="fa fa-child"></i>Childcare </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!teaching-volunteer-projects-abroad">
+                                            <i class="fa fa-pencil-square-o"></i>Teaching Projects </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!environment-conservation">
+                                            <i class=""></i>Environment Conservation </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!women-empowerment-volunteer-abroad">
+                                            <i class="fa fa-female"></i>Women Empowerment </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!community-development">
+                                            <i class="fa fa-users"></i>Community Development </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!one-week-volunteer-abroad-programs">
+                                            <i class=""></i>1 Week Projects </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!construction-and-building-volunteer-projects">
+                                            <i class=""></i>Construction &amp; Building Projects </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!2-weeks-volunteer-abroad-programs">
+                                            <i class="fa fa-2weeks"></i>2 Week Specials </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!short-term-volunteer-opportunities">
+                                            <i class=""></i>Short Term Volunteering </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!summer-volunteer-abroad-programs">
+                                            <i class="fa fa-summer_program"></i>Summer Programs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!disabled-care-and-special-need-volunteer-abroad">
+                                            <i class="fa fa-wheelchair"></i>Disabled &amp; Special Need Care </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!sports-coaching">
+                                            <i class="fa fa-futbol-o"></i>Sports Coaching </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!language-culture-week">
+                                            <i class="fa fa-language"></i>Language - Orientation Week </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!senior-volunteering-abroad">
+                                            <i class=""></i>Senior Volunteering </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!high-school-volunteer-abroad-programs">
+                                            <i class=""></i>High School &amp; Under 18 Programs </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="vs-custom_list_group">
+                                        <a href="#!intern-abroad">
+                                            Intern Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!journalism-and-media-internship">
+                                            <i class="fa fa-book"></i>Journalism and Media </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!medical-internship-abroad">
+                                            <i class="fa fa-user-md"></i>Medical - Healthcare Internship </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="#!group-volunteer-abroad">
+                                Groups </a>
+
+                            <div class="dropdown-menu custom-menu shadow">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!cas-trips-abroad">
+                                            CAS Trips Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volunteer-abroad-university-groups">
+                                            University Group Programs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!family-volunteering">
+                                            Family Volunteering </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!school-trips-abroad">
+                                            School Trips Abroad </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!corporate-volunteering">
+                                            Corporate Volunteering </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="#!">
+                                Resources </a>
+
+                            <div class="dropdown-menu custom-menu shadow">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!flight-booking">
+                                            Flight Booking </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!faqs">
+                                            FAQs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!fundraise">
+                                            Fundraise for your trip </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!meet-a-volunteer">
+                                            Meet a Volunteer </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!cost">
+                                            Program Costs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!dates">
+                                            Program Dates </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!insurance">
+                                            Buy VS Insurance </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-animate">
+                            <a class="nav-link dropdown-toggle" href="about.html">
+                                About Us </a>
+
+                            <div class="dropdown-menu custom-menu shadow dropdown-menu-right">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!team">
+                                            Meet the Team </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!message-parents">
+                                            Message to Parents </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!media">
+                                            News and Articles </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!volsol-policies">
+                                            VolSol Policies </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!aboutus">
+                                            What VolSol is all about? </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!why-vs">
+                                            Why Choose us? </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!why-pay">
+                                            Why Pay to Volunteer Abroad ? </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled ml-lg-auto d-lg-flex d-none mb-0">
+                        <li class="nav-item mr-lg-3">
+                            <a class="nav-link text-white" href="#!">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item align-items-center d-flex">
+                            <a class="btn btn-danger px-lg-4 text-nowrap apply-btn" href="apply.html">Apply Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="hero inner-sub-banner d-flex align-items-end banner-container position-relative">
+            <div class="container">
+                <div class="hero-caption">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 text-white">
+                            <h1 class="heading-text text-white">
+                                News and Articles About Volunteering Solutions </h1>
+                            <div aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#!">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">
+                                        News and Articles About Volunteering Solutions</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <picture class="position-absolute z-index-n1 position-left-top-0 shadow-on-element">
+                <source media="(min-width: 768px)" srcset="dump/faq.jpg">
+                <source media="(min-width: 650px)" srcset="dump/tab-inner-banner.png">
+                <img src="dump/mobile-inner-banner.png" alt="hero" width="100%">
+            </picture>
+        </section>
+
+        <main class="wrapper bg-white">
+            <section class="section-style bg-light">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- aside bar -->
+                        <aside class="col-12 col-lg-3" data-mobile-aside="accordion">
+                            <div class="sticky-top mb-5">
+                                <h4 class="h4 font-weight-bold mb-3" data-aside-title="mobile">About Us</h4>
+                                <div class="position-relative show-lg-only" data-mobile-select="true">
+                                    <ul
+                                        class="list-unstyled nav-pills bg-light tabs-style-3 z-index-1 position-relative">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="team.html">Meet the Team
+                                                <i class="fa fa-angle-double-right float-right"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Message to Parents
+                                                <i class="fa fa-angle-double-right float-right"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="media.html">News and Articles
+                                                <i class="fa fa-angle-double-right float-right"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">VolSol Policies
+                                                <i class="fa fa-angle-double-right float-right"></i>
+                                            </a>
+                                            <ul class="list-unstyled w-100 pl-3 pb-2">
+                                                <li class="nav-item">
+                                                    <a href="#!" class="nav-link">
+                                                        Animal Welfare Policy
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#!" class="nav-link">
+                                                        Child And Vulnerable Adult Protection Policy
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#!" class="nav-link">
+                                                        Criminal Background Check
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#!" class="nav-link">
+                                                        Responsible Volunteer Travel Policy
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Why Choose us?
+                                                <i class="fa fa-angle-double-right float-right"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Why Pay to Volunteer Abroad ?
+                                                <i class="fa fa-angle-double-right float-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="svg-dot let-bottom-n50">
+                                        <img src="assets/images/theme-common/dot-bg-blue.svg" alt="red-dot"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <!-- End Aside Bar -->
+
+                        <!-- right side -->
+                        <div class="col-12 bg-white shadow col-lg-9 p-3 p-lg-4">
+                            <div id="vsPageContent" class="vsCustomPageContent">
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a href="http://www.startupfreak.com/volunteering-solutions/"
+                                            target="_blank" rel="nofollow"> <img alt="Startup Freak"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/startupfreak.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.startupfreak.com/volunteering-solutions/"
+                                                rel="nofollow" target="_blank" class="h5">Startup Freak</a></div>
+                                        <p>VolSol acts as the facilitator, the one who streamlines the process for
+                                            volunteers,
+                                            providing budgeted and flexible volunteer project placement to volunteers
+                                            across the
+                                            globe.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.startupfreak.com/volunteering-solutions/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.srf.ch/news/international/ferien-in-slums-junge-freiwillige-helfen-in-indien"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Holidays in Slums: Young volunteers help in India"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/SRF.svg"> </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.srf.ch/news/international/ferien-in-slums-junge-freiwillige-helfen-in-indien"
+                                                rel="nofollow" target="_blank" class="h5">Holidays in Slums: Young
+                                                volunteers
+                                                help in India</a> <br><span class="small">July 14th, 2014</span>
+                                        </div>
+                                        <p>Andre, Olivia and David have chosen schools in New Delhi as a resort instead
+                                            of
+                                            beaches and luxury hotels. There they do volunteer work - for which they
+                                            even pay.
+                                            They gain valuable experience which can help them later in their careers.
+                                        </p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.srf.ch/news/international/ferien-in-slums-junge-freiwillige-helfen-in-indien"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.thestartupjournal.com/volunteering-solutions-connecting-students-international-organizations/"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Connecting Students With International Organizations"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/TSJLogo.png"> </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.thestartupjournal.com/volunteering-solutions-connecting-students-international-organizations/"
+                                                rel="nofollow" target="_blank" class="h5">Connecting Students With
+                                                International
+                                                Organizations</a> <br><span class="small">JULY 20, 2014</span>
+                                        </div>
+                                        <p> Being an international volunteer and intern placement organization, VolSol
+                                            helps
+                                            volunteers get the NGO, social welfare project/program and internship of
+                                            their
+                                            choice.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.thestartupjournal.com/volunteering-solutions-connecting-students-international-organizations/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.thehindu.com/news/cities/chennai/voluntourism-catches-on/article7446235.ece"
+                                            target="_blank" rel="nofollow"> <img alt="The Hindu"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/thehindu.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.thehindu.com/news/cities/chennai/voluntourism-catches-on/article7446235.ece"
+                                                rel="nofollow" target="_blank" class="h5">The Hindu</a> <br><span
+                                                class="small">21ST JULY 2015</span></div>
+                                        <p>The bonus in coming to a foreign country is being able to explore while
+                                            helping out,
+                                            a concept that is beginning to be known as volunteer tourism or
+                                            ‘voluntourism</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.thehindu.com/news/cities/chennai/voluntourism-catches-on/article7446235.ece"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.virgin.com/entrepreneur/are-companies-ignoring-the-professional-benefits-of-volunteering"
+                                            target="_blank" rel="nofollow"> <img alt="VIRGIN"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/virgin.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.virgin.com/entrepreneur/are-companies-ignoring-the-professional-benefits-of-volunteering"
+                                                rel="nofollow" target="_blank" class="h5">VIRGIN</a> <br><span
+                                                class="small">23RD OCT. 2015</span></div>
+                                        <p>Whether You Are A Small Start-Up Or An International Conglomerate The
+                                            Benefits Of
+                                            Employee Volunteering Are Huge. Not Only Does It Positively Affect Employee
+                                            Retention, It Also Reduces Stress (And Consequently Sick Days), Increases
+                                            Team
+                                            Engagement And Spurs Initiative And Creativity</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.virgin.com/entrepreneur/are-companies-ignoring-the-professional-benefits-of-volunteering"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="https://blogs.ubc.ca/lfsundergrads/2016/01/27/volunteering-solutions-an-international-volunteer-organization"
+                                            target="_blank" rel="nofollow"> <img alt="LFS Undergraduate Blog"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/ubc.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://blogs.ubc.ca/lfsundergrads/2016/01/27/volunteering-solutions-an-international-volunteer-organization"
+                                                rel="nofollow" target="_blank" class="h5">LFS Undergraduate Blog</a>
+                                            <br><span class="small">January 27, 2016</span></div>
+                                        <p>Volunteering Solutions is a complete volunteer travel and placement
+                                            organization,
+                                            with its headquarters in India. They provide exemplary and channelized
+                                            volunteer
+                                            abroad opportunities, which are safe, professional and affordable.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://blogs.ubc.ca/lfsundergrads/2016/01/27/volunteering-solutions-an-international-volunteer-organization"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://socialearth.org/benefits-of-volunteering-under-a-medical-program-abroad"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Benefits of Volunteering Under a Medical Program Abroad"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/socialearth.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://socialearth.org/benefits-of-volunteering-under-a-medical-program-abroad"
+                                                rel="nofollow" target="_blank" class="h5">Benefits of Volunteering Under
+                                                a
+                                                Medical Program Abroad</a> <br><span class="small">February 15,
+                                                2016</span>
+                                        </div>
+                                        <p>Volunteering under a medical program is one of the most unique ways where you
+                                            have
+                                            the opportunity to share your knowledge in the field of medicine with those
+                                            from
+                                            different parts of the world. Whilst, majority of it remains similar
+                                            globally, you
+                                            are sure to learn something new from the fellow medical volunteer mate from
+                                            a
+                                            different soil.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://socialearth.org/benefits-of-volunteering-under-a-medical-program-abroad"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="https://journals.worldnomads.com/nomadicdron/story/140423/Worldwide/Why-Volunteering-Abroad-is-One-of-The-Most-Experiential-Way-of-Traveling-and-A-Must-for-Solo-Travel"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Why Volunteering Abroad is One of The Most Experiential Way of Traveling and A Must for Solo Travel"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/worldnomads.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://journals.worldnomads.com/nomadicdron/story/140423/Worldwide/Why-Volunteering-Abroad-is-One-of-The-Most-Experiential-Way-of-Traveling-and-A-Must-for-Solo-Travel"
+                                                rel="nofollow" target="_blank" class="h5">Why Volunteering Abroad is One
+                                                of The
+                                                Most Experiential Way of Traveling and A Must for Solo Travel</a>
+                                            <br><span class="small">3 MARCH 2016</span></div>
+                                        <p>Volunteering abroad is a way of traveling that is practiced mostly by gap
+                                            year
+                                            students to gain experience of traveling alone, explore new destinations,
+                                            and
+                                            witness the various shades of traditions and culture around the world.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://journals.worldnomads.com/nomadicdron/story/140423/Worldwide/Why-Volunteering-Abroad-is-One-of-The-Most-Experiential-Way-of-Traveling-and-A-Must-for-Solo-Travel"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.stgeorgeutah.com/news/archive/announcements/call-volunteers-another-step-make-lives-better-africa/#.WNTCEDuGOUn"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Call for volunteers: Another step to make lives better in Africa"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/stgeorgeutah.jpg">
+                                        </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.stgeorgeutah.com/news/archive/announcements/call-volunteers-another-step-make-lives-better-africa/#.WNTCEDuGOUn"
+                                                rel="nofollow" target="_blank" class="h5">Call for volunteers: Another
+                                                step to
+                                                make lives better in Africa</a> <br><span class="small">March 15,
+                                                2016</span>
+                                        </div>
+                                        <p>One of the leading international volunteer placement organizations,
+                                            Volunteering
+                                            Solutions, has announced its new set of projects in the capital city of
+                                            Kampala,
+                                            Uganda.The organization is calling out for international volunteers to take
+                                            part in
+                                            these programs and travel to make a difference in the society.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.stgeorgeutah.com/news/archive/announcements/call-volunteers-another-step-make-lives-better-africa/#.WNTCEDuGOUn"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.indiaschoolnews.com/blog/2016/03/21/saurabh-sabharwal-volunteering-solutions-gurgaon/"
+                                            target="_blank" rel="nofollow"> <img alt="India School News"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/indiaschoolnews.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.indiaschoolnews.com/blog/2016/03/21/saurabh-sabharwal-volunteering-solutions-gurgaon/"
+                                                rel="nofollow" target="_blank" class="h5">India School News</a>
+                                            <br><span class="small">March 21, 2016</span></div>
+                                        <p>At Volunteering Solutions, we provide some tailor made, customized, volunteer
+                                            programs; and summer volunteering is one of our most popular ones. Mostly it
+                                            is the
+                                            students, who have just finished their schools and are about to enter
+                                            college life,
+                                            that join this program.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.indiaschoolnews.com/blog/2016/03/21/saurabh-sabharwal-volunteering-solutions-gurgaon/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.thecrazymind.com/2016/04/volunteering-travel-solutions.html"
+                                            target="_blank" rel="nofollow"> <img alt="The Crazy Mind"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/thecrazymind.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.thecrazymind.com/2016/04/volunteering-travel-solutions.html"
+                                                rel="nofollow" target="_blank" class="h5">The Crazy Mind</a></div>
+                                        <p>Volunteering abroad during gap year travel is a highly common practice
+                                            exercised by
+                                            students and travelers from US, UK and European countries. These gap year
+                                            travelers
+                                            are always on the lookout for genuine and meaningful volunteer programs. Mr.
+                                            Sabharwal, at a young age of 24, conceptualised the idea of bridging this
+                                            gap and,
+                                            thus, formed Volunteering Travel Solutions.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.thecrazymind.com/2016/04/volunteering-travel-solutions.html"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.goodnewsnetwork.org/volunteering-south-africa-becoming-popular-among-travelers-choice/"
+                                            target="_blank" rel="nofollow"> <img alt="More Teens Taking Gap Year For ‘Voluntourism’ in South Africa
+                                " class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/goodnewsnetwork.jpg">
+                                        </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.goodnewsnetwork.org/volunteering-south-africa-becoming-popular-among-travelers-choice/"
+                                                rel="nofollow" target="_blank" class="h5">More Teens Taking Gap Year For
+                                                ‘Voluntourism’ in South Africa </a> <br><span class="small">Jun
+                                                6, 2016</span></div>
+                                        <p>Voluntourism’ is a becoming a more common practice among college and high
+                                            school
+                                            students, as well as backpackers, looking for a more local travel
+                                            experience. For
+                                            many students, like those in their ‘gap year,’ it is their first attempt at
+                                            a solo
+                                            trip abroad, especially because volunteer travel is one of the most
+                                            affordable and
+                                            safest ways to see the world.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.goodnewsnetwork.org/volunteering-south-africa-becoming-popular-among-travelers-choice/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="https://www.notgoingtouni.co.uk/blog/your-guide-to-taking-a-gap-year-abroad-importance-and-tips-3505"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Your Guide To Taking A Gap Year Abroad"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/ngtu.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.notgoingtouni.co.uk/blog/your-guide-to-taking-a-gap-year-abroad-importance-and-tips-3505"
+                                                rel="nofollow" target="_blank" class="h5">Your Guide To Taking A Gap
+                                                Year
+                                                Abroad</a> <br><span class="small">Aug 26th, 2016</span></div>
+                                        <p>Taking a gap year clears your mind from the societal pressures, and expands
+                                            your
+                                            horizon of thoughts. It helps you decide what you’re really good at and what
+                                            is that
+                                            one thing you enjoy the most doing.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.notgoingtouni.co.uk/blog/your-guide-to-taking-a-gap-year-abroad-importance-and-tips-3505"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.goodnewsnetwork.org/instead-visiting-eiffel-tower-couple-visited-orphanage-nepal/"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Instead of Visiting Eiffel Tower, This Couple Visited an Orphanage in Nepal"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/goodnewsnetwork.jpg">
+                                        </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.goodnewsnetwork.org/instead-visiting-eiffel-tower-couple-visited-orphanage-nepal/"
+                                                rel="nofollow" target="_blank" class="h5">Instead of Visiting Eiffel
+                                                Tower, This
+                                                Couple Visited an Orphanage in Nepal</a> <br><span
+                                                class="small">Nov 5, 2016</span></div>
+                                        <p>Sarin Jeghelian and Sevag Demirjian, a couple from Beirut, Lebanon, had a
+                                            life-changing experience in Nepal working together for the welfare of the
+                                            poor and
+                                            underprivileged children. They also got to know a magnificent country in a
+                                            unique
+                                            way– like a local.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.goodnewsnetwork.org/instead-visiting-eiffel-tower-couple-visited-orphanage-nepal/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a href="http://www.huffingtonpost.com/entry/58368ed5e4b0c2ab944367ab"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="How a Young Mind Conceptualized Volunteer Tourism as The Future of Traveling"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/huffington.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.huffingtonpost.com/entry/58368ed5e4b0c2ab944367ab"
+                                                rel="nofollow" target="_blank" class="h5">How a Young Mind
+                                                Conceptualized
+                                                Volunteer Tourism as The Future of Traveling</a> <br><span
+                                                class="small">Nov. 11, 2016</span>
+                                        </div>
+                                        <p> Volunteering abroad is a concept that is mostly practiced by college and
+                                            high school
+                                            students during their gap year. The concept, however, is not just restricted
+                                            to
+                                            students, but many young adults and senior travelers take up volunteering
+                                            during
+                                            their travel expeditions</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.huffingtonpost.com/entry/58368ed5e4b0c2ab944367ab"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a href="https://www.youthkiawaaz.com/2016/11/volunteering-and-happiness/"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="How Volunteering Can Give You Happiness"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/yuouthkiawaaz.jpg">
+                                        </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.youthkiawaaz.com/2016/11/volunteering-and-happiness/"
+                                                rel="nofollow" target="_blank" class="h5">How Volunteering Can Give You
+                                                Happiness</a> <br><span class="small">November 28, 2016</span>
+                                        </div>
+                                        <p>An academic study seems to suggest there’s a direct correlation between the
+                                            level of
+                                            happiness and volunteering. Contributing something to the society adds a
+                                            purpose to
+                                            life.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.youthkiawaaz.com/2016/11/volunteering-and-happiness/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a href="https://yourstory.com/2016/12/volunteering-solutions/"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Two brothers from Delhi are on a pursuit to make volunteering a popular way to explore the world"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/youstory.jpg"> </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://yourstory.com/2016/12/volunteering-solutions/"
+                                                rel="nofollow" target="_blank" class="h5">Two brothers from Delhi are on
+                                                a pursuit to make
+                                                volunteering a popular way to explore the world</a> <br><span
+                                                class="small">2 DECEMBER 2016</span>
+                                        </div>
+                                        <p> Volunteering is considered a much more responsible way of travelling among
+                                            seasoned
+                                            world travellers,” says Saurabh Sabharwal, Founder, Volunteering Solutions,
+                                            a
+                                            10-year-old startup.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://yourstory.com/2016/12/volunteering-solutions/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="https://maptia.com/mystory/stories/the-experience-of-volunteering-thailand-is-worth-a-million"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="The Experience of Volunteering Thailand is Worth A Million - Marlo Ve"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/maptia.jpg"> </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://maptia.com/mystory/stories/the-experience-of-volunteering-thailand-is-worth-a-million"
+                                                rel="nofollow" target="_blank" class="h5">The Experience of Volunteering
+                                                Thailand is Worth A Million - Marlo Ve</a></div>
+                                        <p>I was on my gap year between high school and college and didn’t have anything
+                                            planned for the last four months before school started. After two months of
+                                            napping
+                                            and watching every episode of ‘Keeping Up With the Kardashians’ at home, I
+                                            decided
+                                            that it’s enough and I needed to get out of there! So I booked a
+                                            volunteering trip
+                                            to Thailand with Volunteering Solutions</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://maptia.com/mystory/stories/the-experience-of-volunteering-thailand-is-worth-a-million"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="https://www.yonderbound.com/stories/karen-padila/my-trip-to-india-that-made-an-impact/5173"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="My Trip to India That Made An Impact - Karen Padilla"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/yonderbound.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.yonderbound.com/stories/karen-padila/my-trip-to-india-that-made-an-impact/5173"
+                                                rel="nofollow" target="_blank" class="h5">My Trip to India That Made An
+                                                Impact -
+                                                Karen Padilla</a></div>
+                                        <p>It was in March of 2015 I took a decision that will certainly change my life
+                                            completely, making me and letting me see things deep inside of us and we
+                                            know, but
+                                            unfortunately materialism and superficiality of society we cannot see.
+                                            Clearly at
+                                            that time I did not know the impact that would have on me, and feelings that
+                                            would
+                                            develop in the depths of my being. So in May 2015, after difficulties of
+                                            paperwork,
+                                            I began my journey, I went to a new world.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.yonderbound.com/stories/karen-padila/my-trip-to-india-that-made-an-impact/5173"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="https://www.charityjob.co.uk/careeradvice/article/should-you-volunteer-to-care-for-animals/"
+                                            target="_blank" rel="nofollow"> <img alt="Volunteer to Care For Animals"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/charityjob.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.charityjob.co.uk/careeradvice/article/should-you-volunteer-to-care-for-animals/"
+                                                rel="nofollow" target="_blank" class="h5">Volunteer to Care For
+                                                Animals</a> <br><span class="small">January 24, 2017</span></div>
+                                        <p>For animal lovers, being surrounded by furry critters all the time is a
+                                            moment of
+                                            absolute bliss. And for those who still don’t know how it feels to work with
+                                            animals, give yourself a chance to get closer to them.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="https://www.charityjob.co.uk/careeradvice/article/should-you-volunteer-to-care-for-animals/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://myfamilytravels.com/share/blogs/65366-why-it-important-go-volunteering-your-family-members"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="Why Is It Important To Go Volunteering With Your Family Members?"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/myfamilytravels.jpg">
+                                        </a>
+                                    </figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://myfamilytravels.com/share/blogs/65366-why-it-important-go-volunteering-your-family-members"
+                                                rel="nofollow" target="_blank" class="h5">Why Is It Important To Go
+                                                Volunteering
+                                                With Your Family Members?</a></div>
+                                        <p>One of the most satisfying and productive ways to unite as a family is
+                                            through
+                                            volunteering for any sort of community service projects. Volunteerism also
+                                            sets a
+                                            good example for others to get inspired by your actions.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://myfamilytravels.com/share/blogs/65366-why-it-important-go-volunteering-your-family-members"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a
+                                            href="http://www.boredpanda.com/5-ways-volunteering-abroad-will-change-your-college-life/"
+                                            target="_blank" rel="nofollow"> <img
+                                                alt="5 Ways Volunteering Abroad Will Change Your College Life"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/boredpanda.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.boredpanda.com/5-ways-volunteering-abroad-will-change-your-college-life/"
+                                                rel="nofollow" target="_blank" class="h5">5 Ways Volunteering Abroad
+                                                Will Change
+                                                Your College Life</a></div>
+                                        <p>While volunteer traveling abroad, you get to meet people from various
+                                            countries, with
+                                            different social backgrounds and ethics. You would not even realize, but by
+                                            the end
+                                            of your program you may have become friends with someone from Australia, or
+                                            Italy,
+                                            or Spain, or Germany; well the world is big enough and you got the point.
+                                        </p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.boredpanda.com/5-ways-volunteering-abroad-will-change-your-college-life/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="blockquote-for-news d-flex flex-lg-nowrap flex-wrap">
+                                    <figure><a href="http://www.over50andoverseas.com/volunteering-solutions/"
+                                            target="_blank" rel="nofollow"> <img alt="Over 50 and Overseas"
+                                                class="img-responsive b-lazy-1"
+                                                src="https://www.volunteeringsolutions.com/img/media/over50andoverseas.jpg">
+                                        </a></figure>
+                                    <div class="figcaption">
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.over50andoverseas.com/volunteering-solutions/"
+                                                rel="nofollow" target="_blank" class="h5">Over 50 and Overseas</a></div>
+                                        <p>Volunteering Solutions is a certified partner of WYSE Travel Confederation,
+                                            and has
+                                            placed more than 10,000 volunteers from different parts of the world in last
+                                            10
+                                            years of their operation.</p>
+                                        <div class="col-12 p-0"><a
+                                                href="http://www.over50andoverseas.com/volunteering-solutions/"
+                                                class="linktag" target="_blank" rel="nofollow">Read The Full Article</a>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right side -->
+
+                </div>
+            </section>
+
+
+
+        </main>
+
+        <section class="bg-white">
+            <div class="container bg-primary-light shadow position-relative top-50 bg-subscribe">
+                <div class="row">
+                    <div class="col-12 col-lg-8 p-3">
+                        <form action="#!">
+                            <label for="newsletter" class="text-white">Subscribe to the newsletter</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control bdr-rounded mr-lg-4"
+                                    placeholder="Enter Your Email">
+                                <button class="btn btn-danger text-nowrap px-lg-5">Subscribe <i
+                                        class="fa fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-auto ml-auto p-3">
+                        <label for="newsletter" class="text-white">Subscribe to the newsletter</label>
+                        <div class="d-flex">
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-youtube fa-2x"></i>
+                            </a>
+                            <a href="#!" class="text-white mr-3">
+                                <i class="fab fa-vimeo-v fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 bg-lines">
+            <div class="container small mt-5">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">QUICK LINKS</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!">Apply Now</a></li>
+                                <li><a href="#!">Blog</a></li>
+                                <li><a href="#!">My Account</a></li>
+                                <li><a href="#!">Make a Payment</a></li>
+                                <li><a href="#!">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">ABOUT VOLSOL</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!">About Us</a></li>
+                                <li><a href="#!">FAQ</a></li>
+                                <li><a href="#!">Privacy Policy</a></li>
+                                <li><a href="#!">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4 class="h6 font-weight-bold">CONTACT</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#!"><i class="fab fa-whatsapp"></i> +44-785-623-4872</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 0-800-014-8160 UK (Toll Free)</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 1-888-790-3096 US/CAN (Toll Free)</a></li>
+                                <li><a href="#!"><i class="fa fa-phone"></i> 1-800-149-751 Australia (Toll Free)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">
+                                    <img src="assets/images/WYSE_FullMember_Grey-blue.png" alt="wyse" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <h5 class="font-weight-bold h6 mt-3">Regional websites</h5>
+                                <a href="#!volunteer-in-ireland">
+                                    <span class="flag flag-gb"></span>UK Website </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-muted text-center ">
+                        © 2020 Volunteering Travel Solutions Pvt. Ltd. All Rights Reserved. CIN:U74140DL2009PTC191429
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+
+
+        <script src="vendors/jquery/jquery.slim.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/popper.min.js"></script>
+        <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+        <script src="vendors/owl/js/owl.carousel.js"></script>
+        <link rel="stylesheet" href="vendors/owl/css/owl.carousel.min.css">
+
+        <script src="assets/dist/js/comman.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    responsiveClass: true,
+                    dots: true,
+                    nav: false,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        600: {
+                            items: 1,
+                        },
+                        1000: {
+                            items: 1,
+                            margin: 20
+                        }
+                    }
+                });
+            })
+        </script>
+
+        <!-- The Modal -->
+        <!-- The Modal -->
+        <div class="modal" id="bookFlight">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <iframe frameborder="0"
+                            src="https://www.studentuniverse.co.uk/travel-services/volunteering-solutions/affiliate/volunteeringsolutions"
+                            style=" height: 700px; width:100%; float: left;"></iframe>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

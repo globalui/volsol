@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Brillion';
+    src: url('../font/Brillion.eot?#iefix') format('embedded-opentype'), url('../font/Brillion.otf') format('opentype'),
+        url('../font/Brillion.woff') format('woff'), url('../font/Brillion.ttf') format('truetype'), url('../font/Brillion.svg#Brillion') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//$font-heading :'Brillion';
+$font-heading :inherit;
+$font-media :'Brillion';
+
+$ui-name:vs;
+$ui-primary:#083258;
+$ui-secondary:#0f4372;
+$ui-primary-red:#fb3c3c;
+$ui-primary-red-light:#ffeeee;
+$ui-bg-light-blue:#00cde0;
+$ui-bg-light-blue-shade2:#dbfff9;
+$ui-bg-light-red-shade2:#ffeae9;

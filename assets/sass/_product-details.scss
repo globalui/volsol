@@ -1,0 +1,17 @@
+.itinerary-video {
+    height: 200px;
+
+    @media(min-width:768px) {
+        height: 400px;
+    }
+}
+
+.tab-content-style-2 {
+    img[class*="float-"] {
+        width: 100%;
+
+        @media(min-width:768px) {
+            width: 240px;
+        }
+    }
+}

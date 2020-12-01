@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Brillion';
+  src: url('Brillion.eot?#iefix') format('embedded-opentype'),  url('Brillion.otf')  format('opentype'),
+	     url('Brillion.woff') format('woff'), url('Brillion.ttf')  format('truetype'), url('Brillion.svg#Brillion') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

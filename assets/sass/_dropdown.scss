@@ -1,0 +1,92 @@
+@media(min-width:992px) {
+    ul.navbar-nav {
+        a.nav-link {
+
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .dropdown {
+        .dropdown-menu{
+            &:before {
+                content: "";
+                background: #FFF;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                display: block;
+                height: 16px;
+                width: 16px;
+                position: absolute;
+                bottom: 100%;
+                z-index: -5;
+                -webkit-transform: rotate(-45deg) translateY(1rem);
+                -ms-transform: rotate(-45deg) translateY(1rem);
+                transform: rotate(-45deg) translateY(1rem);
+                border-radius: 0.2rem;
+            }
+        }
+        &.dropdown-animate {
+            .dropdown-menu {
+                a {
+                    white-space: nowrap !important;
+                }
+
+                padding:20px;
+                display: block;
+                transform: translateX(0) translateY(20px) scale(0.97);
+                transition: all 0.5s ease;
+                opacity: 0;
+                visibility: hidden; 
+              
+                &.dropdown-menu-right:before{
+                    left: unset;
+                    right:2.25rem;
+                }
+            }
+
+            &:hover .dropdown-menu {
+                transform: translateX(3px) translateY(-5px) scale(1);
+                transition: all 0.5s ease;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.custom-menu {
+    ul {
+        margin-bottom: 10px;
+
+        li {
+            margin-bottom: 5px;
+            line-height: 30px;
+
+            &.vs-custom_list_group {
+                a {
+                    color: #000;
+                    font-weight: bold;
+                }
+            }
+
+            &:not(.vs-custom_list_group){
+                display: inline-block; 
+                margin: 3px 3px 3px 0px;
+                a {
+                    background-color: #efefef;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    border-radius: 20px;
+                    padding: 5px 10px;
+                    font-size: 90%;
+    
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+        }
+    }
+}

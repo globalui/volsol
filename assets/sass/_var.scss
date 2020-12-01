@@ -1,0 +1,16 @@
+@mixin black-text() {
+    color: var(--black-text-color);
+}
+
+@mixin p-text() {
+    color: var(--p-text-color);
+}
+
+.black-text {
+    @include black-text();
+}
+
+.p-text,
+.p-text p {
+    @include p-text();
+}
